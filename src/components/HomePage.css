@@ -1,0 +1,119 @@
+/* HomePage.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  font-family: sans-serif;
+  background: #1c2128;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+
+.brand h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: aliceblue;
+  margin-bottom: 2rem;
+}
+
+.search-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.search-row input {
+  flex: 1;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.search-row input:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 12px #b69090;
+}
+
+.search-row input:focus {
+  border-color: #888;
+}
+
+.search-row button {
+  height: 40px;
+  padding: 0 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: background-color 0.4s ease,transform 0.2s ease;
+}
+
+.search-row button:hover {
+  background: #4b4949;
+  transform: translateY(-2px);
+}
+
+.suggestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #999;
+}
+
+.pill {
+  font-size: 12px;
+  color: #ccc;
+  background: #2d333b;
+  border: 1px solid #444;
+  border-radius: 999px;
+  padding: 3px 12px;
+  cursor: pointer;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.pill:hover {
+  background: #f0f0f0;
+  color: #1c2128;
+
+}
