@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 27px;
+    border: none;
+    border-radius:10px ;
+}
+
+.img{
+    padding-right: 10px;
+}
+
+.caption {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 7px;
+    background-color: rgb(234, 230, 230);
+    border: none;
+    border-radius: 10px;
+}

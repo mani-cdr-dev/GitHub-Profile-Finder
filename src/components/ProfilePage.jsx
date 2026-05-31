@@ -151,7 +151,7 @@ export default function ProfilePage({ username, onBack }) {
         </div>
 
         <div className="section-header">
-          <span className="section-title">repositories</span>
+          <span className="section-title">Repositories ⚒️</span>
           <span className="repo-count">{repos.length}</span>
         </div>
 
