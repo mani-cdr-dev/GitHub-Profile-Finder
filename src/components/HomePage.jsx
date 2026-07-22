@@ -4,7 +4,7 @@ import "./HomePage.css";
 const HomePage = ({onSearch}) => {
   const [username, setUsername] = useState("");
 
-  const suggestions = ["torvalds", "gaearon", "sindresorhus"];
+  const suggestions = ["mani-cdr-dev", "n230308", "sindresorhus"];
 
   function handleSearch() {
     if (!username.trim()) return;
